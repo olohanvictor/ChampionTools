@@ -1,2 +1,2 @@
-# champion-tools
+# ChampionTools
 A toolkit for Pokémon Champions players.
