@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChampionTools - Stats Calculator</title>
+</head>
+<body>
+
+  <header>
+    <a href="/index.html">
+      <button><h1>ChampionTools</h1></button>
+    </a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Stats Calculator</h2>
+
+      <search>
+        <input id="pokeNameInput" type="text" placeholder="Search your pokemon">
+        <button id="btnSearch">Search</button>
+      </search>
+
+      <div style="margin-top: 20px;">
+        <label>Nature:</label>
+        <select id="natureSelect"></select>
+      </div>
+
+      <p id="totalPointsDisplay">Total Points: 0 / 66</p>
+
+      <div>
+        <p><strong>Points & Results</strong></p>
+
+        <label>HP:</label>
+        <input type="number" id="hpPoints" min="0" max="32" value="0">
+        Result: <span id="resultHp">0</span><br>
+
+        <label>Attack:</label>
+        <input type="number" id="atkPoints" min="0" max="32" value="0">
+        Result: <span id="resultAtk">0</span><br>
+
+        <label>Defense:</label>
+        <input type="number" id="defPoints" min="0" max="32" value="0">
+        Result: <span id="resultDef">0</span><br>
+
+        <label>Sp. Attack:</label>
+        <input type="number" id="spaPoints" min="0" max="32" value="0">
+        Result: <span id="resultSpa">0</span><br>
+
+        <label>Sp. Defense:</label>
+        <input type="number" id="spdPoints" min="0" max="32" value="0">
+        Result: <span id="resultSpd">0</span><br>
+
+        <label>Speed:</label>
+        <input type="number" id="spePoints" min="0" max="32" value="0">
+        Result: <span id="resultSpe">0</span><br>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <br>
+    © 2026 — Lohan Victor<br>
+    Revelation 4:11
+  </footer>
+
+  <script type="module" src="../tools/statscalculator.ts"></script>
+</body>
+</html>
